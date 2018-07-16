@@ -8,31 +8,45 @@ h1{
 
 .head{
    
-     background-color: #34495E;
+    /* background-color: #34495E;*/
+    background-image: url("images/bg-img.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
-    padding: 100px 25px;
+    padding: 130px 25px;
     font-family: Montserrat, sans-serif;
 }
 .bg-1 { 
-    
+       height: 100px;
        /*background-color: #286090;*/
-       background-color:#22313F;
+       /*background-color:#22313F;*/
+       background-image: url("images/bg-img.jpeg");
   }
    .navbar {
             margin-bottom: 0;
             border-radius: 0;
         }
+        .navbar-nav{
+           margin-top: 20px;
+        }
         .navbar-brand{
+            margin-top: 20px;
             margin-left: 15px !important;
-            font-size:25px;
+            font-size:35px;
+            font-weight: bold;
+            color:rgba(229, 57, 53,1.0) !important;
         }
     .navbar li{
         font-size: 24px;
         padding: 0px;
+        color:
     }
    .bg-2 { 
       /*background-color: #474e5d;  Dark Blue */
-      background-color:#2C3E50;
+      /*background-color:#2C3E50;*/
+      background-color:#1b1d1c;
+      background-repeat: no-repeat;
+      background-size: cover;
       color: #ffffff;
        padding-top: 70px;
       padding-bottom: 70px;
@@ -49,7 +63,11 @@ h1{
   .border{
       border-right: 5px solid #336E7B;
       border-left: 5px solid #336E7B;
-      background-color: #E4F1FE;
+      /*background-color: #E4F1FE;*/
+       /* background-image: url("images/pro-image.jpg"); */
+       background-color:#1c161a;
+      background-repeat: no-repeat;
+      background-size: cover;
       padding-bottom:20px;
   }
   .navbar {
@@ -61,8 +79,8 @@ h1{
   }
   .navbar-nav  li a:hover,
   .navbar-nav>.active>a {
-      color: #1abc9c !important;
-      background-color:#34495E !important;
+      color:rgba(229, 57, 53,1.0) !important;
+      background-color:black !important;
   }
   .navbar-right{
       float:right !important;
@@ -109,10 +127,14 @@ h1{
        width:75%;
        margin-left: 47px;
    }
-   .name{
-       color:white;
+  
+   .name span{
+    color:rgba(229, 57, 53,1.0);
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #22191c;
+    padding:0px 20px;
    }
-   
    .img-bg{
         background-color: white;
    }
